@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Calor'Istory</title>
+   <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <header>
+        <h5>João Laureano's main page</h5>
+        <div1 class="p3">
+            Start your <a href="/video_online"> 
+            <button class="button2" label="WARM UP" name="so_link">WORKOUT</button></a> right now!
+        </div1>
+
+        <style>div1 { position: fixed; top:400px; right:720px}</style>
+        
+
+        <div2 class="container_df1">
+            <div class=" form1">    
+                {% for df1 in final_df %}
+                {{ df1|safe }}
+                {% endfor %}
+            </div>
+        </div2>
+        <br>
+        <br>
+        <div3 class="container_df2">
+            <div6 class="form2">
+                {% for df2 in martins %}
+                {{ df2|safe }}
+                {% endfor %}
+            </div6>
+        </div3>
+
+        <div class="p4">
+        Check the <a href="/calories"><button class="button3" label="WARM UP" name="so_link"> PREVIOUS SESSIONS</button></a> that you've done so far
+        </div>
+
+
+    </header>
+    <br>
+    <br>
+
+
+</body>
+</html>

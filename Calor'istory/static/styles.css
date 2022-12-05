@@ -1,0 +1,281 @@
+body {
+    background-color: green;
+    background-image: url("/static/studio_1.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 2vh;
+}
+
+/* PAGE 1 small tittle */
+h1 {
+    color: rgb(34, 82, 139); 
+    text-align:center;
+    font-size: 40px;
+    margin: 1px;}
+
+/* PAGE 1 BIG TITTLE */
+h2 {
+    color: rgb(34, 82, 139); 
+    text-align:center;
+    font-size: 70px;
+    margin:5px;}
+
+/* PAGE 1 text in ITALIC */
+.p1 { 
+    text-align:center;
+    margin: 55px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;}
+
+p {
+    margin:1px
+}
+
+
+/* PAGE 1 blue container with button */
+.p2 {
+    text-align:center;
+    margin: 55px;
+    font-size: 30px;
+    font-weight:550;
+    background-color: rgba(34, 82, 139, 0.8);
+    box-shadow: 2px 2px rgb(116, 111, 130);
+    color: whitesmoke;
+    padding: 15px;
+    margin: auto;
+    width: 1300px}
+
+.button1{
+    height:40px;
+    width:169px;
+    font-size: 20px;
+    background-color: rgba(34, 82, 139, 0.9);
+    color: whitesmoke;
+    font-weight:550;
+
+
+}
+
+/* ----------end of page 1------------- */
+/* ************************************ */
+
+/* PAGE 2 small title */
+h5 {
+    color: rgb(34, 82, 139); 
+    text-align:center;
+    font-size: 40px;
+    margin: 1px;}
+
+
+/* PAGE 2 last session DataFrame */
+.form1 {
+    border: 1px solid var(--border-color);
+    padding: 50px;
+    background-color: rgba(248, 212, 53, 0.7);
+    box-shadow: 2px 2px rgb(116, 111, 130);
+    text-align: center;
+    padding: 18px;
+    width: 302px;
+    position: fixed;
+    top:100px;
+    right:700px}
+
+.form2 {
+    border: 1px solid var(--border-color);
+    padding: 50px;
+    background-color: rgba(248, 212, 53, 0.6);
+    box-shadow: 2px 2px rgb(116, 111, 130);
+    text-align: center;
+    padding: 20px;
+    width: 935px;
+    position: fixed;
+    top:190px;
+    right:400px}
+
+/* PAGE 2 checking the history of calories */
+.p4 {
+    text-align: center;
+    border: 1px solid var(--border-color);
+    font-size: 30px;
+    font-style:normal;
+    font-weight: 400;
+    padding: 50px;
+    background-color: rgba(38, 120, 18, 0.6);
+    box-shadow: 2px 2px rgb(116, 111, 130);
+    color: azure;
+    padding: 20px;
+    width: 610px;
+    position: fixed;
+    top:380px;
+    right:550px}
+
+.button3 {
+    height:40px;
+    width:195px;
+    font-size: 17px;
+    padding: 4px;
+    background-color: rgba(38, 120, 18, 0.6);
+    font-weight: 400;
+    color: azure;
+
+
+
+}
+
+/* PAGE 2 workout linkage */
+
+.p3 { 
+    text-align:center;
+    margin: 55px;
+    font-size: 30px;
+    font-weight:550;
+    background-color: rgba(34, 82, 139, 0.6);
+    box-shadow: 2px 2px rgb(116, 111, 130);
+    padding: 15px;
+    margin: auto;
+    width: 618px;
+    position: fixed;
+    top:600px;
+    right:550px;
+    color: azure;
+}
+
+
+.button2 {
+    height:40px;
+    width:169px;
+    font-size: 25px;
+    padding: 4px;
+    background-color: rgba(34, 82, 139, 0.6);
+    color: azure;
+
+
+}
+
+/*------------------- end of PAGE 2 -----------------------*/
+/* ******************************************************* */
+
+
+/* PAGE 3 heather */
+
+h3 {
+    color: rgb(34, 82, 139); 
+    text-align:center;
+    font-size: 50px;
+    margin:5px;}
+
+/* PAGE 3 dataframe */
+
+.container_header {
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px rgb(116, 111, 130);
+
+    width:935px
+}
+
+/* PAGE 3 graphics */
+.graph {
+    width: 1650px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px rgb(116, 111, 130);
+    max-width: 2075px;
+    padding:10px;
+    top:600px;
+    right:100px;}
+
+
+
+
+
+
+
+
+
+
+/* PAGE 4 video position */
+
+
+h4 {    color: rgb(34, 82, 139); 
+    text-align:center;
+    font-size: 40px;
+    margin: 1px;}
+
+
+.form {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    background-color: rgba(23, 114, 18, 0.0);
+    text-align: center;
+    width: 930px;
+    position: fixed;
+    top:75px;
+    right:400px}
+
+.img {
+    width: 800px;
+}
+
+.button8 {
+    height:140px;
+    width:169px;
+    font-size: 25px;
+    padding: 4px;
+    background-color: rgba(34, 82, 139, 0.6);
+    color: azure;
+    position: fixed;
+    top:650px;
+    right:20px;
+    border-radius: 50%}
+
+
+.arrow-button {
+    /* Transparent background */
+    background-color: transparent;
+
+    /* Size */
+    height: 12px;
+    width: 12px;
+    font-size: 2px;
+
+}
+
+.arrow-button--l {
+    /* Edges */
+    border-bottom: 1px solid #d1d5db;
+    border-left: 1px solid #d1d5db;
+    transform: translateX(25%) rotate(45deg);
+}
+
+
+/* ------------------------------------ */
+.button9{height:40px;
+    width:169px;
+    font-size: 15px;
+    padding: 4px;
+    background-color: rgba(34, 82, 139, 0.6);
+    color: azure;
+    position: fixed;
+    top:710px;
+    right:1500px;}
+.button10{ height:40px;
+    width:169px;
+    font-size: 25px;
+    padding: 4px;
+    background-color: rgba(34, 82, 139, 0.05);
+    border: none;
+    color: azure;
+    position: fixed;
+    top:740px;
+    right:1500px;}
+
+
+
+
+
+
+

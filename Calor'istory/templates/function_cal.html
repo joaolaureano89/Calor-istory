@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Calor'Istory</title> 
+   <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <header>
+        <h3>Check out your weight loss progress</h3>
+    </header>
+    <a href="/warmup">
+        <button class="arrow-buttons">
+        <!-- Arrow -->
+        <div class="arrow-button arrow-button--l"></div>
+        
+    </button></a>
+    <div class="container_header">
+        <div class="form4">
+            {% for table in tables %}
+            {{ table|safe }}
+            {% endfor %}
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    
+        
+        <img class="graph" src="static/images/3plots.png">
+
+
+        
+    
+    
+
+</body>
+</html>
